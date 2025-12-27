@@ -46,6 +46,7 @@ app.post("/", async(req, res)=>{
 });
 
 app.listen(port, ()=>{
-    mongoose.connect('mongodb+srv://danielluiz1607:daniel0122b@starwar-api.b7m8k7o.mongodb.net/?retryWrites=true&w=majority&appName=StarWar-Api');
+    mongoose.connect('mongodb+srv://<name_user>:<password_user>@starwar-api.b7m8k7o.mongodb.net/?retryWrites=true&w=majority&appName=StarWar-Api');
     console.log("App Running")
+
 });
